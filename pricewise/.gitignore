@@ -1,0 +1,28 @@
+# Build & Dependencies
+target/
+node_modules/
+dist/
+build/
+*.class
+
+# Environment and Secrets
+.env
+.env.local
+*.log
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# H2 and Database files
+*.db
+*.mv.db
+*.trace.db
+

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans;
+  }
+}
+
+.price-glow {
+  text-shadow: 0 0 12px rgba(16, 185, 129, 0.2);
+}
+
